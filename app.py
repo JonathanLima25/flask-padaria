@@ -3,7 +3,7 @@ from flask_bootstrap import Bootstrap
 
 
 app = Flask(__name__)
-app.config['TITLE'] = "Padaria"
+app.config['TITLE'] = "Padoza-TOP"
 Bootstrap(app)
 
 @app.route('/')
